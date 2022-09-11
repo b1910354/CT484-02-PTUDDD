@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'My Shop',
+      // tắt chế độ gỡ lỗi
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: 'Lato',
@@ -26,3 +27,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
