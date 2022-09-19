@@ -55,6 +55,10 @@ class ProductManger {
     // toList() : create a List containing the element of Iterator
     return _items.where((prodItem) => prodItem.isFavorite).toList();
   }
+
+  Product findById(String id) {
+    return _items.firstWhere((prod) => prod.id == id);
+  }
 }
 
 
